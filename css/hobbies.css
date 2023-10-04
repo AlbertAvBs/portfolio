@@ -1,0 +1,31 @@
+#hobbies{
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    text-decoration: underline;
+    text-decoration-color: #333;
+    font-size: 22px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+
+}
+
+#hobbies .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.hobbie-info{
+    margin: 20px;
+}
+
+.hobbie-info img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 7px solid #ff851b;
+}
+

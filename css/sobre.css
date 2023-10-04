@@ -1,0 +1,90 @@
+#sobre{
+    max-width: 1100px;
+    margin: auto;
+    padding: 100px 15px;
+    color: #111135;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+#sobre .imagen-sobre{
+    max-width: 400px;
+    margin-right: 80px;
+
+}
+
+#sobre .imagen-sobre img{
+    padding: 20px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: #f3f3f3;
+}
+
+#sobre .sobre-mi{
+    margin: 0 40px;
+
+}
+
+#sobre .sobre-mi .titulo-sobre{
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #111135;
+    text-decoration: underline;
+    text-decoration-color: #d3d3d3;
+    text-decoration-thickness: 5px;
+}
+
+#sobre .sobre-mi h2{
+    font-size: 34px;
+    font-weight: bold;
+    margin: 20px 0;
+    letter-spacing: 2px;
+}
+
+#sobre .sobre-mi h2 span{
+    color: #ff851b;
+}
+
+#sobre .sobre-mi h3{
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+#sobre .sobre-mi p{
+    font-size: 14px;
+    line-height: 25px;
+    color: #565656;
+    margin-bottom: 12px;
+}
+
+@media screen and (max-width:800px){
+    #sobre {
+        padding: 50px 0;
+        display: block;
+
+    }
+    #sobre .imagen-sobre{
+        max-width: 200px;
+        margin: auto;
+    }
+
+    #sobre .imagen-sobre img{
+        padding: 8px;
+
+    }
+
+    #sobre .sobre-mi .titulo-sobre{
+        text-align: center;
+
+    }
+
+    #sobre .sobre-mi h2{
+        font-size: 25px;
+        text-align: center;
+    }
+}
+

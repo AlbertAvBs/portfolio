@@ -1,0 +1,113 @@
+/*CSS Reset / Normalize*/
+/* Hemos disponibilizado el básico de reset de estilos. Si quieren, añadan más informaciones 
+en las secciones señaladas */
+/*Já deixaremos o básico de reset de estilos. Caso queira adicionar mais informações
+coloque nas sessões indicadas*/
+
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Prata&display=swap');
+
+
+
+:root{
+    /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
+    /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
+   --cor-de-fundo: #4d5050;
+   --cor-de-link: #000;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+
+}
+/*En este desafío nosostros gustaríamos que ustedes intentaran utilizar la metodología BEM. 
+
+Lo que es el BEM?
+
+BEM (Bloque, Elemento, Modificador) es un enfoque basado en componentes para el 
+desarrollo web. La idea detrás de esto es dividir la interfaz de usuario en bloques
+independientes. Esto hace que el desarrollo de la interfaz sea fácil y rápido, incluso
+con una interfaz de usuario compleja, y permite la reutilización del código existente sin copiar y pegar.
+
+Enlace de la documentación oficial!
+https://en.bem.info/methodology/quick-start/*/
+
+/*Sección Menu*/
+header{
+    width: 100%;
+    height: 50px;
+    background: #333;
+    color:#fff;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+.contenedor{
+    width: 98%;
+    margin: auto;
+}
+
+h1 {
+    float: left;
+}
+
+header .contenedor{
+    display: table;
+}
+section {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+footer .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+
+.copy{
+    font-size: 20px;
+
+}
+
+.sociales{
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+
+}
+
+.sociales a{
+    color: #333;
+    text-decoration: none;
+}
+
+#oculto {
+    opacity: 0;
+}
+
+
+@media (min-width:768px) {
+    .sociales {
+        width: auto;
+    }
+}
+
+@media (min-width:1024px) {
+    .contenedor{
+        width: 1000px;
+    }
+    footer .contenedor{
+        justify-content: space-between;
+    }
+}
+

@@ -1,0 +1,55 @@
+#formacion h3, h4 {
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #333;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #111135;
+    text-decoration: underline;
+    text-decoration-color: #d3d3d3;
+    text-decoration-thickness: 5px;
+}
+
+#formacion h4 {
+    text-align: center;
+}
+
+
+#formacion .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#formacion div {
+    margin: 15px;
+
+}
+
+#formacion img {
+    width: 100%;
+    max-width: 280px;
+
+}
+
+#formacion .img-uno{
+    width: 240px;
+    height: 400px;
+    background: #333;
+    box-shadow: 10px 24px 32px -8px #343434;
+    position: relative;
+    margin-top: 70px;
+    border-radius: 32px;
+    text-align: center;
+}
+
+#formacion .img-dos{
+    width: 240px;
+    height: 400px;
+    background: #333;
+    box-shadow: 5px 15px 25px -8px #343434;
+    position: relative;
+    margin-top: 70px;
+    border-radius: 32px;
+    text-align: center;
+}
